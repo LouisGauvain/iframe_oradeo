@@ -1,0 +1,35 @@
+@font-face {
+	font-family: "Proxima Nova";
+	src: url("font/Proxima\ Nova\ Font.otf");
+}
+
+svg {
+	margin-right: 80px;
+}
+
+.bloc-info>p {
+	font-size: 10px;
+	font-family: 'Proxima Nova';
+}
+
+.map {
+	display: flex;
+	align-items: center;
+}
+
+.flags>li {
+	list-style: none;
+	cursor: pointer;
+	font-family: "Proxima Nova";
+	font-size: 15px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+	margin-bottom: 10px;
+}
+
+li>.ico_text {
+	height: 15px;
+	padding-right: 12.5px;
+}
